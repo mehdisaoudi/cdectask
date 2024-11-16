@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us </title>
+  <link rel="icon" href="favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="contactus.css" type="text/css"> 
+</head>
+<body>
+
+  <div class="hello">
+ <h1>Contact Us</h1>
+
+ <form method="post" >
+
+<div class="fullname1">
+<div class="fullname">
+<label for="firstName">First Name </label>
+<br></br>
+
+<input type="text" id="firstName" name="firstName" required >
+
+</div>
+
+<div class="fullname">
+<label for="lastName">Last Name</label>
+<br></br>
+
+
+<input type="text" id="lastName" name="lastName" required>
+</div>
+</div>
+<br></br>
+<label for="Address"> Email Address</label>
+<br></br>
+<input type="email" id="email" name="email" required>
+<br></br>
+
+<label > Query type</label>
+<br></br>
+
+<div class="radiogs">
+  <div class="radiogs1">
+<input type="radio" id="general" name="query" value="general enquiry" required >
+<label for="general">General enquiry  </label>
+</div>
+<div class="radiogs1">
+<input type="radio" id="support" name="query" value="support request"  >
+<label for="support">Support Request </label>
+</div>
+</div>
+
+<br></br>
+
+<label for="message"> message</label>
+<br></br>
+<textarea id="message" name="message"  rows="5" required> </textarea>
+
+<br></br>
+
+
+<input type="checkbox"consent" name="consent"  required>
+
+<label for="consent"> I consent to being contacted by the team*</label>
+
+<br></br>
+
+<button type="submit" id="submit">submit</button>
+
+</div>
+
+ </form>
+
+</body>
+</html>
